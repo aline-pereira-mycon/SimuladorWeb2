@@ -114,7 +114,7 @@ export default function FormCadastro () {
                 <Box>
                     <ContinueButton
                         text="ver planos"
-                        rota="/planos"
+                        rota="/valores"
                     />
                 </Box>
             </form>

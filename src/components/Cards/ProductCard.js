@@ -20,8 +20,8 @@ export default function ProductCard ( {
     }
 
     return (
-        <Link href="/leadsave" sx={ { width: '100%', mb: 2 } }>
-            <Card sx={ { pb: 2, p: 0, borderColor: 'primary.main' } } variant="outlined">
+        <Card sx={ { pb: 2, p: 0, borderColor: 'primary.main' } } variant="outlined">
+            <Link href="/leadsave">
                 <CardContent>
                     <Box sx={ { width: '100%' } }>
                         <Grid container rowSpacing={ 0 } sx={ {} }>
@@ -34,22 +34,21 @@ export default function ProductCard ( {
                                         />
                                     </Grid>
                                     <Grid size={ 10 }>
-                                        <Typography sx={ { fontSize: '.8rem', lineHeight: '1.1', fontWeight: '900', textTransform: 'uppercase' } }>
+                                        <Typography sx={ { fontSize: '.8rem', lineHeight: '1.1', fontWeight: '900', textTransform: 'uppercase', color: '#231D4F' } }>
                                             { title }
                                         </Typography>
                                     </Grid>
                                 </Grid>
                             </Grid>
                             <Grid size={ 12 }>
-                                <Typography sx={ { fontSize: '.65rem', lineHeight: '1.1', fontStyle: 'italic' } }>
+                                <Typography sx={ { fontSize: '.65rem', lineHeight: '1.1', fontStyle: 'italic', color: '#0A0D13' } }>
                                     { description }
                                 </Typography>
                             </Grid>
                         </Grid>
                     </Box>
                 </CardContent>
-            </Card>
-        </Link>
-
+            </Link>
+        </Card>
     );
 }

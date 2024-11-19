@@ -19,12 +19,12 @@ export default function PageTitle ( {
         <Box sx={ { mb: 3, textAlign: 'center' } }>
             <Typography
                 variant="h1"
-                sx={ { fontSize: '1.3rem', mb: 1 } }
+                sx={ { fontSize: '1.1rem', mb: 1 } }
             >
                 { title }
             </Typography>
             <Typography
-                sx={ { fontSize: '.9rem', lineHeight: '1.1' } }
+                sx={ { fontSize: '.8rem', lineHeight: '1.1' } }
             >
                 { subtitle }
             </Typography>

@@ -30,4 +30,8 @@ a {
   justify-content: flex-start;
   margin-top: 3px;
   color: #fff;
+  min-width: 1px;
+}
+.card-image {
+  border-radius: 8px;
 }
